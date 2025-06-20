@@ -44,7 +44,7 @@
             <br>
             <label>Choose your dream place:</label>
             <br>
-            <!-- attribute name is omitted, the value of the input field will not be sent at all. -->
+            <!-- if attribute name is omitted, the value of the input field will not be sent at all. -->
             <input type="radio" id="Choice 1" name="Choice" value="stars" >
             <label>The Stars ✨</label>
             <br>
@@ -53,6 +53,47 @@
             <br>
             <input type="radio" id="Choice 3" name="Choice" value="The Ocean" >
             <label>The Ocean 🌊</label>
+            <br>
+            <br>
+            <label> Dream destinations..: </label>
+            <br>
+            <!-- You can preselect an option with the selected attribute غير كده اول واحد هيبقى ظاهر by default -->
+            <select id="Dream destinations" name="Dream destinations" size="2">
+               <option>🌙 Moonlight Forest</option>
+               <option>🏝️ Floating Island</option>
+               <option>☁️🏰 Cloud Palace</option>
+               <option>🌊🌫️ Whispering Lake</option>
+            </select>
+            <br>
+            <br>
+            <label>What's your favorite color??</label>
+            <br>
+            <input type="color">
+            <br>
+            <br>
+            <label>What would u belive ur lucky number would be??</label>
+            <input type="number" min="0" step="5">
+            <br>
+            <br>
+            <label>Birthday:</label>
+            <br>
+            <input type="datetime-local" min="1960-12-31" max="2004-12-31">
+            <br>
+            <br>
+            <label>What's your dream??</label>
+            <br>
+            <textarea name="what's your dream" rows="10" cols="30"></textarea>
+            <br>
+            <br>
+            <label>Are dreams possible??</label>
+            <br>
+            <label>Yes</label><input type="range"><label>No</label>
+            <br>
+            <br>
+            <label>Enter your Email</label>
+            <input type="email">
+            <br>
+            <input type="image" src="" alt="submit">
             <br>
             <input type="submit" value="submit">
          </form>
