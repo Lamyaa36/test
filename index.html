@@ -19,7 +19,7 @@
       <div>
          <h1>Welcome To My Dream World <a href="#P.S">P.S</a></h1>
          <!-- Always use POST if the form data contains sensitive or personal information! -->
-         <form target="_self" method="post" action="/Home.html">
+         <form target="_self" method="post" onsubmit="window.location.href='Home.html'; return false;" autocomplete="on">
          In the world of dreams.. What's your name 💭💭?
          <br>
          <br>
@@ -94,7 +94,9 @@
             <input type="email">
             <br>
             <br>
+            <a href="Home.html"> 
             <input type="image" src="images/per-dreams-01-banner.jpg" alt="submit" width="120" height="80">
+            </a>
             <br>
             <!-- A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it) -->
              <!-- ممكن استخدمها لما افعل النتيجه -->
