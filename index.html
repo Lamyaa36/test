@@ -25,11 +25,11 @@
          <br>
          <!-- attribute for الغلسه دى عشان بس لما اليوزر يدوس ع الكلمه توديه لمكان ال input -->
             <label for="name">Your Name</label>
-            <input type="text">
+            <input type="text" required autofocus>
             <br>
             <br>
             <label for="passward"> Passward</label>
-            <input type="password">
+            <input type="password" required>
             <br>
             <br>
             <label>What would you choose to follow in your dream?</label>
@@ -66,6 +66,18 @@
             </select>
             <br>
             <br>
+            <label>Who u might see there??</label>
+            <br>
+            <!-- من غير الربط بattribute list, الداتاليست هتبقى كلام بس من غير function ومش هيظهر ف ال website -->
+            <input list="👑 Fantasy Characters" name="Fantasy Characters">
+            <datalist id="👑 Fantasy Characters">
+            <option value="🔮 Angel the Gatekeeper"></option> 
+            <option value="👑 Prince of the Clouds"></option> 
+            <option value="🌙 Lady of Light"></option> 
+            <option value="💎 The Emerald Child"></option> 
+            </datalist>  
+            <br>
+            <br>
             <label>What's your favorite color??</label>
             <br>
             <input type="color">
@@ -82,7 +94,7 @@
             <br>
             <label>What's your dream??</label>
             <br>
-            <textarea name="what's your dream" rows="10" cols="30"></textarea>
+            <textarea name="what's your dream" rows="10" cols="30" placeholder="Close your eyes and think...." required></textarea>
             <br>
             <br>
             <label>Are dreams possible??</label>
@@ -91,11 +103,11 @@
             <br>
             <br>
             <label>Enter your Email</label>
-            <input type="email">
+            <input type="email" required>
             <br>
             <br>
             <a href="Home.html"> 
-            <input type="image" src="images/per-dreams-01-banner.jpg" alt="submit" width="120" height="80">
+            <input type="image" src="/images/ChatGPT Image Jul 20, 2025, 02_48_56 PM.png" alt="submit" width="80" height="80">
             </a>
             <br>
             <!-- A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it) -->
