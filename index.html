@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <title>Lamyaa Nabil</title>
-    <link rel="shortcut icon" href="images/MoonlightUnicorn.webp"> 
+    <link rel="shortcut icon" href="images/MoonlightUnicorn.webp">
+    <link rel="stylesheet" href="index.css"> 
     <style>
       table, th, td {
         border-style:outset;
@@ -17,24 +18,24 @@
    <body>
       <!--ده سيكشن العنوان-->
       <div>
-         <h1>Welcome To My Dream World <a href="#P.S">P.S</a></h1>
+         <h1>Welcome To My Dream World </h1>
          <!-- Always use POST if the form data contains sensitive or personal information! -->
-         <form target="_self" method="post" onsubmit="window.location.href='Home.html'; return false;" autocomplete="on">
+         <form target="_self" method="post" onsubmit="window.location.href='Home.html'; return false;" autocomplete="on" class="styleform">
          In the world of dreams.. What's your name 💭💭?
          <br>
          <br>
          <!-- attribute for الغلسه دى عشان بس لما اليوزر يدوس ع الكلمه توديه لمكان ال input -->
-            <label for="name">Your Name</label>
-            <input type="text" required autofocus>
+            <label  for="name">Your Name</label>
+            <input class="name" type="text" required autofocus>
             <br>
             <br>
             <label for="passward"> Passward</label>
-            <input type="password" required>
+            <input class="passward" type="password" required>
             <br>
             <br>
             <label>What would you choose to follow in your dream?</label>
             <br>
-            <input type="checkbox" id="Choice 1" name="Choice 1" value="passion" >
+            <input class="checkbox" type="checkbox" id="Choice 1" name="Choice 1" value="passion" >
             <label>Passion ❤️</label>
             <input type="checkbox" id="Choice 2" name="Choice 2" value="Security" >
             <label>Security 🔐</label>
@@ -94,7 +95,7 @@
             <br>
             <label>What's your dream??</label>
             <br>
-            <textarea name="what's your dream" rows="10" cols="30" placeholder="Close your eyes and think...." required></textarea>
+            <textarea name="what's your dream" rows="10" cols="30" placeholder="Close your eyes and think...." required ></textarea>
             <br>
             <br>
             <label>Are dreams possible??</label>
@@ -107,7 +108,7 @@
             <br>
             <br>
             <a href="Home.html"> 
-            <input type="image" src="/images/ChatGPT Image Jul 20, 2025, 02_48_56 PM.png" alt="submit" width="80" height="80">
+            <input class="submit"  type="image" src="/images/ChatGPT Image Jul 20, 2025, 02_48_56 PM.png" alt="submit" width="90" height="50">
             </a>
             <br>
             <!-- A read-only input field cannot be modified (however, a user can tab to it, highlight it, and copy the text from it) -->
